@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NodeApp</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #172033;
+    }
+
+    header {
+      background: #172033;
+      color: white;
+      padding: 22px 10%;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 100px 10%;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    button {
+      padding: 14px 24px;
+      border: none;
+      border-radius: 6px;
+      background: #2563eb;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+
+<body>
+  <header>NodeApp</header>
+
+  <main>
+    <h1>Desarrollo con Node.js</h1>
+
+    <p>
+      Aprende a crear aplicaciones web modernas utilizando Node.js y Express.js.
+    </p>
+
+    <button onclick="mostrarMensaje()">Conoce más</button>
+  </main>
+
+  <script>
+    function mostrarMensaje() {
+      alert("¡Gracias por visitar nuestra aplicación!");
+    }
+  </script>
+</body>
+</html>
